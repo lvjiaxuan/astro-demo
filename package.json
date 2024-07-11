@@ -2,17 +2,27 @@
   "name": "astro-demo",
   "type": "module",
   "version": "0.0.1",
+  "packageManager": "pnpm@9.4.0+sha256.b6fd0bfda555e7e584ad7e56b30c68b01d5a04f9ee93989f4b93ca8473c49c74",
   "scripts": {
     "dev": "astro dev",
     "start": "astro dev",
     "build": "astro check && astro build",
     "preview": "astro preview",
-    "astro": "astro"
+    "astro": "astro",
+    "lint": "eslint",
+    "lintf": "eslint --fix"
   },
   "dependencies": {
     "@astrojs/check": "^0.8.1",
+    "@astrojs/vue": "^4.5.0",
     "astro": "^4.11.5",
-    "typescript": "^5.5.3"
+    "typescript": "^5.5.3",
+    "vue": "^3.4.31"
   },
-  "packageManager": "pnpm@9.4.0+sha256.b6fd0bfda555e7e584ad7e56b30c68b01d5a04f9ee93989f4b93ca8473c49c74"
+  "devDependencies": {
+    "@lvjiaxuan/eslint-config": "^1.11.0",
+    "eslint": "^9.6.0",
+    "eslint-plugin-astro": "^1.2.3",
+    "unocss": "^0.61.3"
+  }
 }
