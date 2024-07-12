@@ -16,6 +16,7 @@
     "@astrojs/check": "^0.8.1",
     "@astrojs/vue": "^4.5.0",
     "astro": "^4.11.5",
+    "lightningcss": "^1.25.1",
     "typescript": "^5.5.3",
     "vue": "^3.4.31"
   },

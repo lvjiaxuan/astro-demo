@@ -8,4 +8,9 @@ export default defineConfig({
   site: 'https://lvjiaxuan.github.io',
   base: 'astro-demo',
   integrations: [vue(), UnoCSS()],
+  vite: {
+    css: {
+      transformer: 'lightningcss',
+    },
+  },
 })
